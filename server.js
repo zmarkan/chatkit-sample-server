@@ -26,8 +26,4 @@ app.post("/echo", (req, res) => {
   res.send(req.body)
 });
 
-app.get("/", (req, res) => {
-  res.send("I am a silly server.")
-})
-
 app.listen(port, () => {console.log(`Listening on: ${port}`) })
