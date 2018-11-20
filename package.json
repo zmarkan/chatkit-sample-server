@@ -1,0 +1,21 @@
+{
+  "name": "chatkit-demo-server",
+  "version": "1.0.0",
+  "description": "The server component for a web app demonstrating the capabilities of the Pusher Chatkit SDK",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pusher/chatkit-server": "^1.0.4",
+    "auth0": "^2.13.0",
+    "auth0-js": "^9.8.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^1.7.3",
+    "server": "^1.0.15"
+  }
+}
